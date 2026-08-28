@@ -17,8 +17,10 @@
   <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" remote="aosp" />
 
-  <project path="kernel-5.10" name="cyberknight777/dragonheart_kernel_motorola_cancunf" remote="github" revision="android12-5.10" clone-depth="1" >
-    <linkfile dest="build.config" src="build.config.cancunf" />
+  <project path="kernel-5.10" name="kjdev16/stock_motorola_devonf_kernel" remote="github" revision="android12-5.10" clone-depth="1" >
+    <linkfile dest="build.config" src="build.config.devonf" />
   </project>
+
+  <project path="vendor" name="kjdev16/kernel_motorola_devonf-modules" remote="github" revision="main" clone-depth="1" />
 
 </manifest>
